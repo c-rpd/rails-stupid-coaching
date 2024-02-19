@@ -1,0 +1,12 @@
+<h1>STUPID COACHING</h1>
+<div class="p-2 mx-5">
+  <%= params[:question] %>
+  <p><em>- Me</em><p>
+</div>
+<div class="p-2 mx-5 bg-warning">
+  <%= @answer %>
+  <p><em>- Coach</em><p>
+</div>
+<div class="mx-4 text-decoration-none">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
